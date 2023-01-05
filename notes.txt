@@ -1,0 +1,24 @@
+forEach() calls a function for each element in an array:
+addEventListener() -Add an event listener that fires when a user clicks a button
+The Element property innerHTML gets or sets the HTML or XML markup contained within the element
+eg:document.getElementById("demo").innerHTML = "Hello World!";
+set p tag to hello world
+
+Get the element that triggered a specific event:target
+
+alert(event.target);
+
+The dot notation is used to access the object properties in JavaScript.
+
+value-The value property sets or returns the value of the value attribute of a text field.
+Set the value property:
+
+textObject.value = text
+Data
+The data-* attribute is used to store custom data private to the page or application.  eg:data-num
+The attribute name should not contain any uppercase letters, and must be at least one character long after the prefix "data-"
+An HTML data-* attribute and its corresponding DOM dataset.property modify their shared name according to where they are read or written
+In JavaScript
+The property name of a custom data attribute is the same as the HTML attribute without the data- prefix, and removes single dashes (-) for when to capitalize the property's "camelCased" name.
+eg: el.dataset.user === 'carinaanand'
+function(e)=it will work only when an event is happen
